@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>JATIN CHAHAR </title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>JATIN CHAHAR</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">01. About</a></li>
+        <li><a href="#skills" class="nav-link">02. Skills</a></li>
+        <li><a href="#projects" class="nav-link">03. Projects</a></li>
+        <li><a href="#contact" class="nav-link">04. Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+</nav>
+
+   
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="jatin chahar"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My name is jatin chahar . i have graduated from computer science and engineering stream.
+          my interest lies in software development ,  i have good grasp/knowledge of core computer science 
+          subjects like dbms, data structures, computer network. i am proficient in c/c++ languages. 
+          apart from that i have descent knowledge of sql,html,css.
+        </p>
+      </div>
+</section>
+
+    
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Bachelor of Technology
+            Bundelkhand Institute of Engineering and Techonology,Jhansi 2017-2021
+            Secured 66.78 percentage in B.Tech
+        Class XII St. Clare’s Sr. Sec. School Agra 2016
+            Central Board of Secondary Education
+            Secured 80.8% marks in 12th standard.
+        Class X St. Clare’s Sr. Sec. School Agra 2014
+            Central Board of Secondary Education
+            Secured 9.4 CGPA in 10th standard.
+            
+            Outside work, I occasionally blog on Medium. Off-screen, I sketch my thoughts here!
+
+            <h4>here is the list of technologies i am familiar With</h4>
+            <ul>
+              <li>C</li>
+              <li>c++</li>
+              <li>python,django</li>
+              <li>html,css</li>
+              <li>javascript</li>
+            </ul>
+
+      </p>
+      
+      
+    </section>
+
+    
+    <
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-details">
+            android app to keep track of daya to day expenses
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Facemask tracker</h3>
+          <p class="project-details">
+            A face mask detector app-- to detect wheather person is wearing face
+            mask or not in real time.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
